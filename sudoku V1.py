@@ -165,4 +165,5 @@ def MainFunc(s):
         s=IterationsList(s)
     print "\nthe sudoku after " + str(totalIterations)+" iterations with constraintLogic is: "
     PrintSudoku(s)
-MainFunc(sudoku)    
+if __name__=='__main__':
+    MainFunc(sudoku)    
